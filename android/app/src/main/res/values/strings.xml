@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Хроники Эльдории</string>
+    <string name="title_activity_main">Хроники Эльдории</string>
+    <string name="package_name">com.eldoria.chronicles</string>
+    <string name="custom_url_scheme">com.eldoria.chronicles</string>
+</resources>
