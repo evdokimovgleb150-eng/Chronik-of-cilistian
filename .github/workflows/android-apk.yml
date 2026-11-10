@@ -24,8 +24,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+      # GitHub's Ubuntu runner image already includes the Android SDK and build-tools.
       - name: Install web dependencies and sync Android app
         run: npm ci && npm run android:sync
       - name: Build debug APK
